@@ -1,4 +1,5 @@
 Summary:	Regular expression powered renaming tool
+Summary(pl):	Narzêdzie do zmiany nazw plików z u¿yciem wyra¿eñ regularnych
 Name:		remv
 Version:	0.4.1
 Release:	0.1
@@ -10,10 +11,17 @@ URL:		http://labix.org/remv
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-That's a tool to rename files with the help of regular expressions. It allows
-one to replace parts of filenames and/or directories, rename them completely,
-remove files which match a given pattern, change the case of them, use help of
-external programs, and more.
+That's a tool to rename files with the help of regular expressions. It
+allows one to replace parts of filenames and/or directories, rename
+them completely, remove files which match a given pattern, change the
+case of them, use help of external programs, and more.
+
+%description -l pl
+Jest to narzêdzie do zmiany nazw plików przy wykorzystaniu wyra¿eñ
+regularnych. Pozwala ono: zmieniæ czê¶æ nazwy pliku lub katalogu,
+zmieniæ ca³kowicie jego nazwê, usun±æ pliki pasuj±ce do zadanego
+wzorca, zmieniæ wielko¶æ liter w nazwie, korzystaæ z zewnêtrznych
+programów itp.
 
 %prep
 %setup -q
