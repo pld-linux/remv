@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://labix.org/download/remv/%{name}-%{version}.tar.gz
 # Source0-md5:	d5de032eadb412bf2b86629aa031ba89
 URL:		http://labix.org/remv
+BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
