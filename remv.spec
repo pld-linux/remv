@@ -1,5 +1,5 @@
 Summary:	Regular expression powered renaming tool
-Summary(pl):	Narzêdzie do zmiany nazw plików z u¿yciem wyra¿eñ regularnych
+Summary(pl.UTF-8):   NarzÄ™dzie do zmiany nazw plikÃ³w z uÅ¼yciem wyraÅ¼eÅ„ regularnych
 Name:		remv
 Version:	0.4.1
 Release:	0.1
@@ -17,12 +17,12 @@ allows one to replace parts of filenames and/or directories, rename
 them completely, remove files which match a given pattern, change the
 case of them, use help of external programs, and more.
 
-%description -l pl
-Jest to narzêdzie do zmiany nazw plików przy wykorzystaniu wyra¿eñ
-regularnych. Pozwala ono: zmieniæ czê¶æ nazwy pliku lub katalogu,
-zmieniæ ca³kowicie jego nazwê, usun±æ pliki pasuj±ce do zadanego
-wzorca, zmieniæ wielko¶æ liter w nazwie, korzystaæ z zewnêtrznych
-programów itp.
+%description -l pl.UTF-8
+Jest to narzÄ™dzie do zmiany nazw plikÃ³w przy wykorzystaniu wyraÅ¼eÅ„
+regularnych. Pozwala ono: zmieniÄ‡ czÄ™Å›Ä‡ nazwy pliku lub katalogu,
+zmieniÄ‡ caÅ‚kowicie jego nazwÄ™, usunÄ…Ä‡ pliki pasujÄ…ce do zadanego
+wzorca, zmieniÄ‡ wielkoÅ›Ä‡ liter w nazwie, korzystaÄ‡ z zewnÄ™trznych
+programÃ³w itp.
 
 %prep
 %setup -q
