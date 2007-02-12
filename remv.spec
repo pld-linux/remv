@@ -1,5 +1,5 @@
 Summary:	Regular expression powered renaming tool
-Summary(pl.UTF-8):   Narzędzie do zmiany nazw plików z użyciem wyrażeń regularnych
+Summary(pl.UTF-8):	Narzędzie do zmiany nazw plików z użyciem wyrażeń regularnych
 Name:		remv
 Version:	0.4.1
 Release:	0.1
